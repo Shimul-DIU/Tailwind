@@ -1,14 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{html,js,jsx,ts,tsx,vue}"
-  ],
+  content: ["*"],
   theme: {
-    fontFamily:{
-      'shimul':['osward']
+    extend: {
+      fontFamily: {
+        'shimul': ['osward', 'sans-serif'],
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
