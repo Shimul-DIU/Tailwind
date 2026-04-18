@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+
+        </style>
+</head>
+<body>
+    <div class="grid w-10/12 mx-auto grid-cols-1 gap-2 bg-gray-200 p-2 shadow-2xl">
+        <header class="bg-white rounded-xl flex items-center justify-center  h-24  text-center col-span-1">header</header>
+        <nav class="bg-white rounded-xl flex items-center justify-center   h-24 text-center col-span-1">navigation menu</nav>
+         <div class="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-6 gap-2">
+            <aside class="bg-white rounded-xl flex items-center justify-center   h-24 col-span-1 md:col-span-1 text-center">artical</aside>
+            <main class=" rounded-xl grid grid-cols-1 md:gap-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:col-span-3 lg:col-span-4  col-span-1 bg-gray-200 text-center">
+                <div class="bg-white rounded-xl">main content </div>
+                <div class="bg-white rounded-xl ">main content</div>
+                <div class="bg-white rounded-xl">main content</div>
+                <div class="bg-white rounded-xl">main content</div>
+                <div class="bg-white rounded-xl">main content</div>
+                <div class="bg-white rounded-xl">main content</div>
+                <div class="bg-white rounded-xl">main content</div>
+            </main>
+         </div>
+        <div class="bg-white rounded-xl flex items-center justify-center  h-24 col-span-1 text-center">footer</div>
+        
+        
+    </div>
+</body>
+</html>

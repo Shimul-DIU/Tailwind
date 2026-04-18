@@ -2,5 +2,25 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
     "tailwindcss": "^4.2.2"
-  }
+  },
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "This is a frontend project built using **Tailwind CSS**.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shimul-DIU/Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shimul-DIU/Tailwind/issues"
+  },
+  "homepage": "https://github.com/Shimul-DIU/Tailwind#readme"
 }
