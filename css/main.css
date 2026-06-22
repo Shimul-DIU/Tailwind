@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Alien Block';
+  src: url('../fonts/alien-block-v2-latin-regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --font-alien: 'Alien Block', sans-serif;
+}
+
+.alien-text {
+  font-family: var(--font-alien);
+}
